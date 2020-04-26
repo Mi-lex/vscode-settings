@@ -1,0 +1,108 @@
+{
+    "explorer.openEditors.visible": 0,
+    "breadcrumbs.enabled": true,
+    "advancedNewFile.exclude": {
+        "node_modules": true,
+        "node_modules_electron": true,
+        "vendor": true,
+        "public": true
+    },
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "terminal.ansiBrightRed": "#b87c7c",
+    },
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": false,
+    "files.associations": {
+        ".stylelintrc": "json"
+    },
+    "editor.minimap.enabled": false,
+    "window.zoomLevel": 0,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "vim.insertModeKeyBindings": [],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<Leader>",
+                "o"
+            ],
+            "after": [
+                "o",
+                "<esc>"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "O"
+            ],
+            "after": [
+                "O",
+                "<esc>"
+            ]
+        },
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "q",
+                "q"
+            ],
+            "commands": [
+                ":wq"
+            ]
+        }
+    ],
+    "editor.lineNumbers": "relative",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDragAndDrop": false,
+    "workbench.settings.openDefaultSettings": true,
+    "html.mirrorCursorOnMatchingTag": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "prettier.useTabs": true,
+    "prettier.singleQuote": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "files.eol": "\n",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.trailingComma": "none",
+    "prettier.arrowParens": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "prettier.useEditorConfig": false,
+    "editor.semanticHighlighting.enabled": true,
+    "javascript.format.semicolons": "insert",
+    "typescript.format.semicolons": "remove",
+    "typescriptHero.imports.insertSemicolons": false,
+    "autoimport.useSemiColon": true,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+}
